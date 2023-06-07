@@ -899,3 +899,18 @@ a {
         font-size: 1.6rem;
     }
 }
+
+/* callout block */
+@media screen and (min-width: 1024px) {
+    .block-callout {
+        height: 20rem;
+        padding: 0;
+        position: relative;
+    }
+
+    .block-callout .callout {
+        justify-self: center;
+        position: absolute;
+        bottom: -30px;
+    }
+}
