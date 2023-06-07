@@ -392,9 +392,17 @@ a {
 
 
 /* popular */
-@media screen and (min-width: 768px) {
+.plan:hover {
+    transform: scale(1.05);
+}
+
+@media screen and (min-width: 1024px) {
     .plan--popular {
         transform: scale(1.1);
+    }
+
+    .plan--popular:hover {
+        transform: scale(1.15);
     }
 }
 
@@ -411,13 +419,7 @@ a {
     right: 5%;
 }
 
-.plan:hover {
-    transform: scale(1.05);
-}
 
-.plan--popular:hover {
-    transform: scale(1.15);
-}
 
 .plan .list__item {
     margin-bottom: 2rem;
@@ -817,7 +819,7 @@ a {
     width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .feature:nth-of-type(even) .feature__content {
         order: 2;
     }
