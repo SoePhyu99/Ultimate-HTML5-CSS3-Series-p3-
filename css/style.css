@@ -87,7 +87,7 @@ p {
     }
 
     p {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -171,6 +171,7 @@ a {
 }
 
 .list--tick .list__item {
+    font-size: 1.8rem;
     padding-left: 0.5rem;
     margin-bottom: 1rem;
 }
