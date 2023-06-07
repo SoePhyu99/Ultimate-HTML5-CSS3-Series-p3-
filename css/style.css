@@ -440,7 +440,7 @@ a {
 /* media */
 .media {
     display: flex;
-    margin-bottom: 4rem;
+    margin: 4rem 0;
 }
 
 .media__title {
